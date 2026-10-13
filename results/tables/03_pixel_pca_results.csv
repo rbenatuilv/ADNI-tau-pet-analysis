@@ -1,0 +1,9 @@
+model,view,cv_balanced_accuracy,best_params,accuracy,balanced_accuracy,macro_f1,roc_auc
+PCA + logistic regression,axial,0.8123,"{'clf__C': 0.001, 'pca__n_components': 50}",0.8694,0.7937,0.7623,0.9002
+PCA + logistic regression,coronal,0.8350,"{'clf__C': 0.001, 'pca__n_components': 50}",0.9189,0.8487,0.8398,0.9179
+PCA + logistic regression,sagittal,0.7966,"{'clf__C': 0.1, 'pca__n_components': 30}",0.8423,0.7780,0.7305,0.8428
+PCA + logistic regression,all views,0.8485,"{'clf__C': 0.001, 'pca__n_components': 30}",0.8874,0.8303,0.7951,0.9008
+PCA + RBF SVM,axial,0.7906,"{'clf__C': 1, 'clf__gamma': 'scale', 'pca__n_components': 50}",0.8784,0.7730,0.7627,0.9130
+PCA + RBF SVM,coronal,0.8333,"{'clf__C': 10, 'clf__gamma': 'scale', 'pca__n_components': 5}",0.8468,0.7676,0.7301,0.8479
+PCA + RBF SVM,sagittal,0.7694,"{'clf__C': 1, 'clf__gamma': 'scale', 'pca__n_components': 20}",0.8288,0.6661,0.6619,0.8094
+PCA + RBF SVM,all views,0.8033,"{'clf__C': 1, 'clf__gamma': 'scale', 'pca__n_components': 30}",0.8829,0.7497,0.7563,0.8821

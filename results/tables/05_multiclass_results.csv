@@ -1,0 +1,14 @@
+features,model,cv_macro_f1,accuracy,balanced_accuracy,macro_f1,roc_auc
+axial,logistic regression,0.4611,0.4795,0.4209,0.3907,0.6001
+axial,linear SVM,0.4640,0.4932,0.4412,0.4149,0.6272
+axial,random forest,0.4695,0.5205,0.4263,0.4236,0.6250
+coronal,logistic regression,0.5146,0.5068,0.4876,0.4394,0.6773
+coronal,linear SVM,0.5137,0.5297,0.4883,0.4323,0.7048
+coronal,random forest,0.5197,0.6027,0.4918,0.4932,0.6840
+sagittal,logistic regression,0.4689,0.5616,0.5915,0.5116,0.6948
+sagittal,linear SVM,0.4555,0.5708,0.5885,0.5049,0.7361
+sagittal,random forest,0.4728,0.5982,0.5003,0.4851,0.7172
+early fusion,logistic regression,0.5279,0.5388,0.5101,0.4740,0.6914
+early fusion,linear SVM,0.5178,0.5616,0.4988,0.4740,0.7263
+early fusion,random forest,0.5219,0.6393,0.5447,0.5524,0.7234
+late fusion,random forest + random forest + random forest,,0.6667,0.5521,0.5563,0.7191

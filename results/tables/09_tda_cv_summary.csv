@@ -1,0 +1,8 @@
+pipeline,mean,std
+lower-star,0.6678,0.0697
+alpha,0.6723,0.0551
+Delaunay-Čech,0.6880,0.0579
+3D alpha,0.7036,0.0508
+"lower-star, quantile threshold",0.7200,0.0592
+Vietoris-Rips,0.7398,0.0542
+weighted Rips,0.7738,0.0571

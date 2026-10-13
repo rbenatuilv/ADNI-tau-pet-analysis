@@ -1,0 +1,10 @@
+features,view,model,balanced_accuracy,roc_auc
+pixels + PCA,axial,PCA + logistic regression,0.7937,0.9002
+radiomics (whole brain),axial,RBF SVM,0.7099,0.8046
+radiomics (PCA/ANOVA ROI),axial,logistic regression,0.6604,0.7482
+pixels + PCA,coronal,PCA + logistic regression,0.8487,0.9179
+radiomics (whole brain),coronal,logistic regression,0.8299,0.9160
+radiomics (PCA/ANOVA ROI),coronal,logistic regression,0.9031,0.9475
+pixels + PCA,sagittal,PCA + logistic regression,0.7780,0.8428
+radiomics (whole brain),sagittal,logistic regression,0.7385,0.8137
+radiomics (PCA/ANOVA ROI),sagittal,logistic regression,0.8405,0.9286

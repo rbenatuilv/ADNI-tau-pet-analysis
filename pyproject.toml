@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adni-tau"
+version = "1.0.0"
+description = "Statistical and topological analysis of tau-PET brain slices from ADNI (AD / MCI / CN)."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "pingouin",
+    "matplotlib",
+    "seaborn",
+    "pillow",
+    "pyarrow",
+    "tqdm",
+    "SimpleITK",
+    "gudhi",
+]
+
+[project.optional-dependencies]
+# pyradiomics is installed from source (see requirements.txt): the PyPI wheel
+# does not build on recent Python versions.
+notebooks = ["jupyter", "ipykernel", "plotly"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

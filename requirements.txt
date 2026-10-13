@@ -1,0 +1,20 @@
+# Python 3.10 - 3.12. Tested with Python 3.12 on Windows.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+statsmodels>=0.14
+pingouin>=0.5
+matplotlib>=3.9
+seaborn>=0.13
+pillow>=10.0
+pyarrow>=16.0
+tqdm>=4.66
+SimpleITK>=2.4
+gudhi>=3.10
+# The PyPI release of pyradiomics does not build on recent Python versions.
+pyradiomics @ git+https://github.com/AIM-Harvard/pyradiomics.git@8ed579383b44806651c463d5e691f3b2b57522ab
+jupyter
+ipykernel
+# Installs this repository's package (src/adni_tau) in editable mode.
+-e .
