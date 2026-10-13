@@ -1,0 +1,5 @@
+filtration,cv_accuracy_mean,cv_accuracy_std,cv_balanced_accuracy_mean,cv_balanced_accuracy_std
+alpha,0.6722,0.0550,0.6723,0.0551
+delaunaycech,0.6878,0.0578,0.6880,0.0579
+rips,0.7398,0.0542,0.7398,0.0542
+weighted_rips,0.7736,0.0572,0.7738,0.0571

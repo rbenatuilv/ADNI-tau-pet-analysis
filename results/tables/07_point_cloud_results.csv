@@ -1,0 +1,17 @@
+model,split,accuracy,balanced_accuracy
+alpha: Nearest template (bottleneck),test,0.6500,0.6500
+alpha: Nearest template (wasserstein),test,0.6500,0.6500
+alpha: Logistic regression,train,1.0000,1.0000
+alpha: Logistic regression,test,0.7000,0.7000
+delaunaycech: Nearest template (bottleneck),test,0.6000,0.6000
+delaunaycech: Nearest template (wasserstein),test,0.6500,0.6500
+delaunaycech: Logistic regression,train,1.0000,1.0000
+delaunaycech: Logistic regression,test,0.7000,0.7000
+rips: Nearest template (bottleneck),test,0.6500,0.6500
+rips: Nearest template (wasserstein),test,0.6000,0.6000
+rips: Logistic regression,train,1.0000,1.0000
+rips: Logistic regression,test,0.6500,0.6500
+weighted_rips: Nearest template (bottleneck),test,0.6500,0.6500
+weighted_rips: Nearest template (wasserstein),test,0.6500,0.6500
+weighted_rips: Logistic regression,train,1.0000,1.0000
+weighted_rips: Logistic regression,test,0.8000,0.8000

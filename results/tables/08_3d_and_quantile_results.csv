@@ -1,0 +1,13 @@
+model,split,accuracy,balanced_accuracy
+3D alpha: Nearest template (bottleneck),test,0.5000,0.5000
+3D alpha: Nearest template (wasserstein),test,0.4500,0.4500
+3D alpha: Logistic regression,train,1.0000,1.0000
+3D alpha: Logistic regression,test,0.5000,0.5000
+quantile lower_star: Nearest template (bottleneck),test,0.5500,0.5500
+quantile lower_star: Nearest template (wasserstein),test,0.6000,0.6000
+quantile lower_star: Logistic regression,train,0.9844,0.9844
+quantile lower_star: Logistic regression,test,0.9500,0.9500
+quantile alpha: Nearest template (bottleneck),test,0.6500,0.6500
+quantile alpha: Nearest template (wasserstein),test,0.6000,0.6000
+quantile alpha: Logistic regression,train,1.0000,1.0000
+quantile alpha: Logistic regression,test,0.6500,0.6500

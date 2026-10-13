@@ -1,0 +1,4 @@
+pipeline,cv_accuracy_mean,cv_accuracy_std,cv_balanced_accuracy_mean,cv_balanced_accuracy_std
+3D alpha,0.7037,0.0508,0.7036,0.0508
+quantile lower_star,0.7197,0.0593,0.7200,0.0592
+quantile alpha,0.5576,0.0694,0.5576,0.0693
